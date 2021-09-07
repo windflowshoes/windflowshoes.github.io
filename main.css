@@ -1,0 +1,361 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    padding: 5%;
+}
+.logo{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 12vw;
+}
+.one{
+    margin-top: 5%;
+    float: left;
+}
+.two{
+    float: right;
+}
+.first_text{
+    font-size: 6vw;
+    letter-spacing: 20px;
+    color: black;
+    margin-bottom: 3vw;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+.new_arrival{
+    font-weight: 900;
+}
+.first_button{
+    padding: 20px;
+    border: black 2px solid;
+    color: black;
+    letter-spacing: 7px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.first_button:hover{
+    color: white;
+    text-decoration: none;
+    background: black;
+    transition: 0.3s;
+}
+.shoe1{
+    width: 40vw;
+}
+.card_1,
+.card_2,
+.card_3{
+    float: left;
+}
+.card_1{
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 2%;
+    
+}
+.card_2{
+    padding-top: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.card_3{
+    padding-top: 7%;
+    padding-left: 2%;
+}
+.card{
+    width: 320px;
+    height: 420px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.09);
+    border-radius: 12px;
+    padding: 7%;
+}
+.card_shoe_1{
+    width: 230px;
+    margin-top: 4%;
+    margin-left: 12%;
+}
+.card_shoe_2{
+    width: 280px;
+    margin-left: -9%;
+    margin-top: -10%;
+}
+.card_shoe_3{
+    width: 280px;
+    margin-left: -9%;
+    margin-top: -10%;
+}
+.number{
+    float: left;
+    color: #8a8a8a;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 100%;
+}
+.shoe_name{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    float: left;
+    width: 100%;
+    margin-bottom: 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+.view{
+    text-align: center;
+    width: 100%;
+    color: black;
+    border: black 2px solid;
+    padding: 5%;
+    padding-left: 40%;
+    padding-right: 40%;
+    letter-spacing: 4px;
+    transition: 0.3s;
+}
+.view:hover{
+    color: white;
+    text-decoration: none;
+    background: black;
+}
+.view_1{
+    text-align: center;
+    width: 100%;
+    color: black;
+    border: black 2px solid;
+    padding: 5%;
+    padding-left: 40%;
+    padding-right: 40%;
+    letter-spacing: 4px;
+    transition: 0.3s;
+}
+.view_1:hover{
+    color: white;
+    text-decoration: none;
+    background: black;
+}
+.shoes_description{
+    margin-top: 3%;
+}
+.shoe_1_image{
+    width: 40vw;
+    float: left;
+    margin-right: 5%;
+}
+.shoe_2_image{
+    width: 50vw;
+    float: left;
+    margin-top: -10%;
+    margin-right: 5%;
+    margin-left: -10%;
+}
+.shoe_3_image{
+    width: 50vw;
+    float: left;
+    margin-top: -10%;
+    margin-right: 5%;
+    margin-left: -10%;
+}
+.description{
+    float: left;
+    width: 40%;
+}
+.shoe_name_big{
+    font-size: 3vw;
+    color: black;
+    letter-spacing: 8px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+.shoe_description{
+    font-size: 1.2vw;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10%;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .logo{
+        width: 18vw;
+    }
+    .one{
+        width: 100%;
+        text-align: center;
+    }
+    .first_text{
+        font-size: 10vw;
+    }
+    .two{
+        text-align: center;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .shoe1{
+        width: 60vw;
+    }
+    .card{
+        width: 420px;
+        height: 490px;
+    }
+    .card_1{
+        padding-left: 2%;
+    }
+    .card_shoe_1{
+        width: 256px;
+        margin-top: 5%;
+        margin-left: 19%;
+    }
+    .card_shoe_2{
+        width: 296px;
+        margin-top: -7%;
+        margin-left: 0%;
+        margin-bottom: 4%;
+    }
+    .card_shoe_3{
+        width: 304px;
+        margin-top: -4%;
+        margin-left: 4%;
+    }
+    .shoe_1_image{
+        width: 60vw;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    .shoe_2_image{
+        width: 70vw;
+        margin-top: -5%;
+        margin-left: 4%;
+    }
+    .shoe_3_image{
+        width: 70vw;
+        margin-top: -5%;
+        margin-left: 4%;
+    }
+    .number{
+        font-size: 17px;
+    }
+    .description{
+        width: 100%;
+    }
+    .shoe_name_big{
+        font-size: 5vw;
+    }
+    .shoe_description{
+        font-size: 2.2vw;
+    }
+    .view_1{
+        font-size: 2vw;
+    }
+}
+@media only screen and (max-width: 600px){
+    .logo{
+        top: 3%;
+        width: 27vw;
+    }
+    .one{
+        width: 100%;
+        text-align: center;
+        margin-top: 15%;
+    }
+    .first_text{
+        font-size: 8vw;
+        margin-bottom: 10%;
+    }
+    .two{
+        text-align: center;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .shoe1{
+        width: 86vw;
+        margin-left: 9%;
+        margin-top: 10%;
+    }
+    .card{
+        width: 325px;
+        height: 449px;
+        border-radius: 2px;
+    }
+    .card_1{
+        padding-left: 7%;
+        margin-top: 5%;
+    }
+    .card_2{
+        padding-left: 7%;
+    }
+    .card_3{
+        padding-left: 7%;
+    }
+    .view{
+        border: black 1px solid;
+        font-size: 8px;
+        padding-left: 43%;
+        padding-right: 43%;
+    }
+    .card_shoe_1{
+        width: 256px;
+        margin-top: 5%;
+        margin-left: 9%;
+    }
+    .card_shoe_2{
+        width: 296px;
+        margin-top: -7%;
+        margin-left: -10%;
+        margin-bottom: 4%;
+    }
+    .card_shoe_3{
+        width: 304px;
+        margin-top: -4%;
+        margin-left: -12%;
+    }
+    .shoe_1_image{
+        width: 69vw;
+        margin-left: 16%;
+        margin-top: 8%;
+    }
+    .shoe_2_image{
+        width: 78vw;
+        margin-top: -5%;
+        margin-left: 4%;
+    }
+    .shoe_3_image{
+        width: 79vw;
+        margin-top: -5%;
+        margin-left: 4%;
+    }
+    .number{
+        font-size: 11px;
+    }
+    .description{
+        width: 100%;
+        padding: 5%;
+    }
+    .shoe_name_big{
+        font-size: 5vw;
+    }
+    .shoe_description{
+        font-size: 2.5vw;
+    }
+    .view_1{
+        border: black 1px solid;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 370px){
+    .card_1{
+        padding-left: 5%;
+    }
+    .card_2{
+        padding-left: 5%;
+    }
+    .card_3{
+        padding-left: 5%;
+    }
+}
+@media only screen and (min-width: 1200px){
+
+}
